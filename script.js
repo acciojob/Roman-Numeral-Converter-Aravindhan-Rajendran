@@ -23,5 +23,5 @@ for(var i=0;i<Object.keys(obj).length;i++)
 	}
 	return roman;
 }
-console.log(convertToRoman(num));
+console.log(convertToRoman(1000));
 module.exports = convertToRoman
